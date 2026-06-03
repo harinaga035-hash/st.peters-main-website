@@ -12,17 +12,17 @@ import {
 } from "lucide-react";
 
 export const SITE = {
-  name: "St. Peter's Institute of Pharmaceutical Sciences",
-  short: "St. Peter's",
+  name: "Masters Degree & PG College Institute of Pharmaceutical Sciences",
+  short: "Masters Degree & PG College",
   tagline: "Where Excellence Meets Innovation",
-  email: "admissions@St. Peter's.edu",
+  email: "admissions@Masters Degree & PG College.edu",
   phone: "+1 (415) 555-0192",
   whatsapp: "+14155550192",
   address: "1 Scholars Way, Innovation District, CA 94000",
 };
 
 export const NAV_ITEMS = [
-  { label: "Home", to: "/", icon: Home, desc: "Welcome to St. Peter's" },
+  { label: "Home", to: "/", icon: Home, desc: "Welcome to Masters Degree & PG College" },
   { label: "About Us", to: "/about-us", icon: GraduationCap, desc: "Our legacy & vision" },
   { label: "Infrastructure", to: "/infrastructure", icon: Building2, desc: "World-class campus" },
   { label: "Research", to: "/research", icon: FlaskConical, desc: "Discovery & innovation" },

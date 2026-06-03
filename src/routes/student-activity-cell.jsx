@@ -9,13 +9,13 @@ import { CTABand } from "@/components/site/CTABand";
 const Route = createFileRoute("/student-activity-cell")({
   head: () => ({
     meta: [
-      { title: "Student Activity Cell \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { title: "Student Activity Cell \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       {
         name: "description",
         content:
-          "150+ clubs, cultural festivals, sports, hackathons and leadership programs \u2014 the St. Peter's Student Activity Cell makes campus life vibrant, inclusive and unforgettable.",
+          "150+ clubs, cultural festivals, sports, hackathons and leadership programs \u2014 the Masters Degree & PG College Student Activity Cell makes campus life vibrant, inclusive and unforgettable.",
       },
-      { property: "og:title", content: "Student Activity Cell \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { property: "og:title", content: "Student Activity Cell \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       { property: "og:description", content: "Clubs, culture, sports and a thriving community." },
       { property: "og:url", content: "/student-activity-cell" },
       { property: "og:image", content: studentLife },
@@ -39,7 +39,7 @@ const events = [
     desc: "Three days of music, art and celebration with 20,000+ attendees.",
   },
   {
-    name: "HackSt. Peter's",
+    name: "HackMasters Degree & PG College",
     tag: "Global Hackathon",
     desc: "48 hours of innovation with international student teams.",
   },
@@ -55,7 +55,7 @@ function SACPage() {
       <PageHero
         eyebrow="Student Activity Cell"
         title="Where campus life comes alive"
-        subtitle="Beyond the classroom, St. Peter's is a stage for passion, creativity and leadership — with a club, a team or a cause for everyone."
+        subtitle="Beyond the classroom, Masters Degree & PG College is a stage for passion, creativity and leadership — with a club, a team or a cause for everyone."
         image={studentLife}
         crumbs={[{ label: "Student Activity Cell" }]}
       />
@@ -104,7 +104,7 @@ function SACPage() {
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <SectionHeading
             eyebrow="Signature Events"
-            title="Moments that define the St. Peter's experience"
+            title="Moments that define the Masters Degree & PG College experience"
           />
           <Stagger className="mt-12 grid gap-6 lg:grid-cols-3">
             {events.map((e) => (
@@ -128,7 +128,7 @@ function SACPage() {
         <Reveal>
           <img
             src={studentLife}
-            alt="Students celebrating at a St. Peter's Institute of Pharmaceutical Sciences festival"
+            alt="Students celebrating at a Masters Degree & PG College Institute of Pharmaceutical Sciences festival"
             loading="lazy"
             width={1280}
             height={960}

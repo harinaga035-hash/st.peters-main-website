@@ -25,7 +25,7 @@ import { CTABand } from "@/components/site/CTABand";
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "St. Peter's Institute of Pharmaceutical Sciences \u2014 Where Excellence Meets Innovation" },
+      { title: "Masters Degree & PG College Institute of Pharmaceutical Sciences \u2014 Where Excellence Meets Innovation" },
       {
         name: "description",
         content:
@@ -33,7 +33,7 @@ const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "St. Peter's Institute of Pharmaceutical Sciences \u2014 Where Excellence Meets Innovation",
+        content: "Masters Degree & PG College Institute of Pharmaceutical Sciences \u2014 Where Excellence Meets Innovation",
       },
       {
         property: "og:description",
@@ -87,7 +87,7 @@ function Home() {
       <section className="relative flex min-h-screen items-center overflow-hidden">
         <motion.img
           src={heroCampus}
-          alt="St. Peter's Institute of Pharmaceutical Sciences campus at golden hour"
+          alt="Masters Degree & PG College Institute of Pharmaceutical Sciences campus at golden hour"
           initial={{ scale: 1.15 }}
           animate={{ scale: 1 }}
           transition={{ duration: 2, ease: [0.2, 0.8, 0.2, 1] }}
@@ -115,7 +115,7 @@ function Home() {
               Where Excellence Meets <span className="hero-accent-shadow text-[#FFD166]">Innovation</span>
             </h1>
             <p className="hero-copy-shadow mt-6 max-w-xl text-lg font-medium leading-relaxed text-white/95 sm:text-xl">
-              St. Peter's Institute of Pharmaceutical Sciences empowers the next generation of leaders, researchers and
+              Masters Degree & PG College Institute of Pharmaceutical Sciences empowers the next generation of leaders, researchers and
               innovators with a world-class education designed for a future without limits.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -123,7 +123,7 @@ function Home() {
                 to="/about-us"
                 className="group inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-gradient-gold px-7 py-3.5 font-bold text-gold-foreground shadow-gold transition-transform hover:scale-[1.03]"
               >
-                Discover St. Peter's
+                Discover Masters Degree & PG College
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
               <Link
@@ -156,9 +156,9 @@ function Home() {
       {/* PILLARS / BENTO */}
       <section className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
         <SectionHeading
-          eyebrow="Why St. Peter's"
+          eyebrow="Why Masters Degree & PG College"
           title="A foundation built on four pillars of distinction"
-          description="Every part of the St. Peter's experience is engineered to help you achieve more - academically, professionally and personally."
+          description="Every part of the Masters Degree & PG College experience is engineered to help you achieve more - academically, professionally and personally."
         />
         <Stagger className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {pillars.map((p) => (
@@ -182,7 +182,7 @@ function Home() {
             <div className="relative">
               <img
                 src={research}
-                alt="Researchers working in a St. Peter's Institute of Pharmaceutical Sciences laboratory"
+                alt="Researchers working in a Masters Degree & PG College Institute of Pharmaceutical Sciences laboratory"
                 loading="lazy"
                 width={1280}
                 height={960}
@@ -258,7 +258,7 @@ function Home() {
               <SectionHeading
                 eyebrow="Campus Life"
                 title="A community where you belong"
-                description="From cultural festivals to leadership societies, 150+ student clubs and a thriving residential community make every day at St. Peter's unforgettable."
+                description="From cultural festivals to leadership societies, 150+ student clubs and a thriving residential community make every day at Masters Degree & PG College unforgettable."
               />
               <div className="mt-8 grid grid-cols-3 gap-6">
                 {[
@@ -286,7 +286,7 @@ function Home() {
           <Reveal delay={0.1}>
             <img
               src={studentLife}
-              alt="Students celebrating at a St. Peter's Institute of Pharmaceutical Sciences campus festival"
+              alt="Students celebrating at a Masters Degree & PG College Institute of Pharmaceutical Sciences campus festival"
               loading="lazy"
               width={1280}
               height={960}
@@ -303,8 +303,8 @@ function Home() {
             <div>
               <SectionHeading
                 eyebrow="Virtual Tour"
-                title="Step inside St. Peter's from wherever you are"
-                description="Explore signature learning spaces, residential life, research labs and student hubs through an immersive campus preview designed for future St. Peter's students and families."
+                title="Step inside Masters Degree & PG College from wherever you are"
+                description="Explore signature learning spaces, residential life, research labs and student hubs through an immersive campus preview designed for future Masters Degree & PG College students and families."
               />
               <div className="mt-8 grid gap-4 sm:grid-cols-3">
                 {[
@@ -337,7 +337,7 @@ function Home() {
               <div className="relative aspect-video min-h-[320px] overflow-hidden max-[430px]:min-h-[360px]">
                 <img
                   src={heroCampus}
-                  alt="Virtual tour preview of St. Peter's Institute of Pharmaceutical Sciences campus"
+                  alt="Virtual tour preview of Masters Degree & PG College Institute of Pharmaceutical Sciences campus"
                   loading="lazy"
                   width={1280}
                   height={720}
@@ -354,7 +354,7 @@ function Home() {
                 <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
                   <p className="eyebrow text-gold">Interactive Preview</p>
                   <h3 className="mt-2 text-2xl font-semibold leading-tight text-white sm:text-3xl">
-                    St. Peter's Campus Walkthrough
+                    Masters Degree & PG College Campus Walkthrough
                   </h3>
                   <p className="mt-2 max-w-xl text-sm leading-relaxed text-white/80">
                     A polished tour area ready for your 360° embed, hosted video, or campus
@@ -373,7 +373,7 @@ function Home() {
           <figure className="relative rounded-3xl border border-border bg-card p-8 text-center shadow-soft sm:p-14">
             <Quote className="mx-auto h-10 w-10 text-gold" />
             <blockquote className="mt-6 font-display text-2xl font-medium leading-relaxed text-foreground sm:text-3xl">
-              "St. Peter's didn't just give me a degree - it gave me a global network, a research
+              "Masters Degree & PG College didn't just give me a degree - it gave me a global network, a research
               career, and the confidence to lead. It's an institution that genuinely believes in its
               students."
             </blockquote>

@@ -18,13 +18,13 @@ import { CTABand } from "@/components/site/CTABand";
 const Route = createFileRoute("/infrastructure")({
   head: () => ({
     meta: [
-      { title: "Infrastructure \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { title: "Infrastructure \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       {
         name: "description",
         content:
-          "Explore St. Peter's Institute of Pharmaceutical Sciences's world-class infrastructure: smart classrooms, advanced laboratories, a soaring central library, sports arenas, and green residential campuses.",
+          "Explore Masters Degree & PG College Institute of Pharmaceutical Sciences's world-class infrastructure: smart classrooms, advanced laboratories, a soaring central library, sports arenas, and green residential campuses.",
       },
-      { property: "og:title", content: "Infrastructure \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { property: "og:title", content: "Infrastructure \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       { property: "og:description", content: "World-class, future-ready campus facilities." },
       { property: "og:url", content: "/infrastructure" },
       { property: "og:image", content: infra },
@@ -86,7 +86,7 @@ function InfraPage() {
 
       <section className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
         <SectionHeading
-          eyebrow="The St. Peter's Campus"
+          eyebrow="The Masters Degree & PG College Campus"
           title="Spaces designed to elevate every experience"
           description="Spread across 200 acres, our campus blends architectural elegance with cutting-edge technology and a deep commitment to sustainability."
         />
@@ -127,7 +127,7 @@ function InfraPage() {
         <Reveal>
           <img
             src={infra}
-            alt="Soaring atrium of the St. Peter's Institute of Pharmaceutical Sciences central library"
+            alt="Soaring atrium of the Masters Degree & PG College Institute of Pharmaceutical Sciences central library"
             loading="lazy"
             width={1280}
             height={960}
@@ -138,7 +138,7 @@ function InfraPage() {
           <SectionHeading
             eyebrow="Sustainability First"
             title="A greener, smarter campus"
-            description="Every building at St. Peter's is designed with the planet in mind — from solar arrays and rainwater harvesting to intelligent energy systems that cut consumption by 40%."
+            description="Every building at Masters Degree & PG College is designed with the planet in mind — from solar arrays and rainwater harvesting to intelligent energy systems that cut consumption by 40%."
           />
           <ul className="mt-8 space-y-4">
             {[

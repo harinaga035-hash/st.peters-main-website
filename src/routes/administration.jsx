@@ -8,13 +8,13 @@ import { CTABand } from "@/components/site/CTABand";
 const Route = createFileRoute("/administration")({
   head: () => ({
     meta: [
-      { title: "Administration \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { title: "Administration \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       {
         name: "description",
         content:
-          "Meet the leadership and governance of St. Peter's Institute of Pharmaceutical Sciences \u2014 a transparent, accountable administration committed to academic integrity and institutional excellence.",
+          "Meet the leadership and governance of Masters Degree & PG College Institute of Pharmaceutical Sciences \u2014 a transparent, accountable administration committed to academic integrity and institutional excellence.",
       },
-      { property: "og:title", content: "Administration \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { property: "og:title", content: "Administration \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       { property: "og:description", content: "Leadership, governance and transparency." },
       { property: "og:url", content: "/administration" },
       { property: "og:image", content: aboutAerial },
@@ -63,7 +63,7 @@ function AdminPage() {
       <section className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
         <SectionHeading
           eyebrow="Institute of Pharmaceutical Sciences Leadership"
-          title="The team guiding St. Peter's forward"
+          title="The team guiding Masters Degree & PG College forward"
           description="Distinguished academics and administrators dedicated to advancing our mission and serving our community."
           align="center"
         />

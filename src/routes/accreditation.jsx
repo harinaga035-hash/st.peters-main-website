@@ -9,13 +9,13 @@ import { CTABand } from "@/components/site/CTABand";
 const Route = createFileRoute("/accreditation")({
   head: () => ({
     meta: [
-      { title: "Accreditation & Rankings \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { title: "Accreditation & Rankings \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       {
         name: "description",
         content:
-          "St. Peter's Institute of Pharmaceutical Sciences holds the highest accreditations \u2014 NAAC A++, NBA, and global recognition \u2014 and ranks among the world's leading institutions for teaching and research.",
+          "Masters Degree & PG College Institute of Pharmaceutical Sciences holds the highest accreditations \u2014 NAAC A++, NBA, and global recognition \u2014 and ranks among the world's leading institutions for teaching and research.",
       },
-      { property: "og:title", content: "Accreditation & Rankings \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { property: "og:title", content: "Accreditation & Rankings \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       {
         property: "og:description",
         content: "Recognized for quality, trust and global standards.",
@@ -70,7 +70,7 @@ function AccreditationPage() {
         <SectionHeading
           eyebrow="Our Accreditations"
           title="Quality, verified and assured"
-          description="Independent bodies have validated the rigor and impact of a St. Peter's education at the highest levels."
+          description="Independent bodies have validated the rigor and impact of a Masters Degree & PG College education at the highest levels."
           align="center"
         />
         <Stagger className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -113,7 +113,7 @@ function AccreditationPage() {
         <Reveal>
           <img
             src={accreditation}
-            alt="St. Peter's Institute of Pharmaceutical Sciences graduation ceremony"
+            alt="Masters Degree & PG College Institute of Pharmaceutical Sciences graduation ceremony"
             loading="lazy"
             width={1280}
             height={768}
@@ -124,7 +124,7 @@ function AccreditationPage() {
           <SectionHeading
             eyebrow="A Legacy of Trust"
             title="Standards that stand the test of time"
-            description="For accreditation bodies, parents and recruiters alike, the St. Peter's name is a mark of assured quality and continuous improvement."
+            description="For accreditation bodies, parents and recruiters alike, the Masters Degree & PG College name is a mark of assured quality and continuous improvement."
           />
           <div className="mt-8 grid grid-cols-3 gap-6">
             {[

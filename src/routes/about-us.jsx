@@ -12,13 +12,13 @@ import { CTABand } from "@/components/site/CTABand";
 const Route = createFileRoute("/about-us")({
   head: () => ({
     meta: [
-      { title: "About Us \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { title: "About Us \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       {
         name: "description",
         content:
-          "Discover St. Peter's Institute of Pharmaceutical Sciences's legacy of academic excellence, our vision and mission, founding values, and the milestones that made us a globally trusted institution.",
+          "Discover Masters Degree & PG College Institute of Pharmaceutical Sciences's legacy of academic excellence, our vision and mission, founding values, and the milestones that made us a globally trusted institution.",
       },
-      { property: "og:title", content: "About Us \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { property: "og:title", content: "About Us \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       { property: "og:description", content: "Our legacy, vision, mission and values." },
       { property: "og:url", content: "/about-us" },
       { property: "og:image", content: aboutAerial },
@@ -127,7 +127,7 @@ function AboutPage() {
   return (
     <div>
       <PageHero
-        eyebrow="About St. Peter's"
+        eyebrow="About Masters Degree & PG College"
         title="Six decades of shaping brilliant minds"
         subtitle="A legacy of academic excellence, innovation and trust - built by visionaries, sustained by community, and committed to the future."
         image={aboutAerial}
@@ -143,10 +143,10 @@ function AboutPage() {
           />
           <Reveal>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Since 1962, St. Peter's Institute of Pharmaceutical Sciences has been a place where ambition meets opportunity.
+              Since 1962, Masters Degree & PG College Institute of Pharmaceutical Sciences has been a place where ambition meets opportunity.
               What began as a bold experiment in accessible, high-quality education has grown into a
               globally ranked institution spanning sciences, engineering, business, and the arts.
-              Today, more than 25,000 students from 65+ countries call St. Peter's home - united by
+              Today, more than 25,000 students from 65+ countries call Masters Degree & PG College home - united by
               curiosity and a drive to make a difference.
             </p>
           </Reveal>
@@ -174,7 +174,7 @@ function AboutPage() {
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <SectionHeading
             eyebrow="Leadership"
-            title="Leadership guiding St. Peter's forward"
+            title="Leadership guiding Masters Degree & PG College forward"
             description="A compact view of the institution's leadership team and the values shaping our academic direction."
             align="center"
           />
@@ -222,7 +222,7 @@ function AboutPage() {
       {/* Why Choose */}
       <section className="mx-auto max-w-7xl px-5 py-20 lg:px-8">
         <SectionHeading
-          eyebrow="Why Choose St. Peter's"
+          eyebrow="Why Choose Masters Degree & PG College"
           title="A focused environment for pharmaceutical excellence"
           description="Students learn in a culture that connects academic depth with research, mentorship, and professional confidence."
           align="center"

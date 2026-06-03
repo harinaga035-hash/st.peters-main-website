@@ -12,9 +12,9 @@ const Route = createFileRoute("/contact-us")({
       {
         name: "description",
         content:
-          "Get in touch with St. Peter's Institute of Pharmaceutical Sciences. Reach admissions, request a campus tour, or send us your questions \u2014 we're here to help you take the next step.",
+          "Get in touch with Masters Degree & PG College Institute of Pharmaceutical Sciences. Reach admissions, request a campus tour, or send us your questions \u2014 we're here to help you take the next step.",
       },
-      { property: "og:title", content: "Contact Us \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { property: "og:title", content: "Contact Us \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       { property: "og:description", content: "Reach our admissions and support teams." },
       { property: "og:url", content: "/contact-us" },
     ],

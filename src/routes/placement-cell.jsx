@@ -9,13 +9,13 @@ import { CTABand } from "@/components/site/CTABand";
 const Route = createFileRoute("/placement-cell")({
   head: () => ({
     meta: [
-      { title: "Placement Cell \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { title: "Placement Cell \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       {
         name: "description",
         content:
-          "98% placement rate, 240+ recruiters and record-breaking offers. The St. Peter's Placement Cell connects students to elite global careers through training, mentorship and partnerships.",
+          "98% placement rate, 240+ recruiters and record-breaking offers. The Masters Degree & PG College Placement Cell connects students to elite global careers through training, mentorship and partnerships.",
       },
-      { property: "og:title", content: "Placement Cell \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { property: "og:title", content: "Placement Cell \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       { property: "og:description", content: "Careers, recruiters and outstanding outcomes." },
       { property: "og:url", content: "/placement-cell" },
       { property: "og:image", content: placement },
@@ -135,7 +135,7 @@ function PlacementPage() {
         <Reveal>
           <img
             src={placement}
-            alt="Students at a St. Peter's Institute of Pharmaceutical Sciences campus recruitment drive"
+            alt="Students at a Masters Degree & PG College Institute of Pharmaceutical Sciences campus recruitment drive"
             loading="lazy"
             width={1280}
             height={960}
@@ -144,7 +144,7 @@ function PlacementPage() {
         </Reveal>
         <div>
           <SectionHeading
-            eyebrow="Why Recruiters Choose St. Peter's"
+            eyebrow="Why Recruiters Choose Masters Degree & PG College"
             title="Job-ready, industry-aligned graduates"
             description="Our students arrive with the technical depth, communication skills and professional maturity that top employers demand."
           />
@@ -166,7 +166,7 @@ function PlacementPage() {
       </section>
 
       <CTABand
-        title="Recruit from St. Peter's"
+        title="Recruit from Masters Degree & PG College"
         description="Partner with us to access a talent pool of driven, future-ready graduates."
         primaryLabel="Become a Recruiter"
         secondaryLabel="Download Brochure"

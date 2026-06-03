@@ -9,13 +9,13 @@ import { CTABand } from "@/components/site/CTABand";
 const Route = createFileRoute("/research")({
   head: () => ({
     meta: [
-      { title: "Research \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { title: "Research \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       {
         name: "description",
         content:
-          "St. Peter's Institute of Pharmaceutical Sciences leads frontier research across AI, sustainability, biotechnology, quantum science and healthcare \u2014 with 30+ centers and global recognition.",
+          "Masters Degree & PG College Institute of Pharmaceutical Sciences leads frontier research across AI, sustainability, biotechnology, quantum science and healthcare \u2014 with 30+ centers and global recognition.",
       },
-      { property: "og:title", content: "Research \u2014 St. Peter's Institute of Pharmaceutical Sciences" },
+      { property: "og:title", content: "Research \u2014 Masters Degree & PG College Institute of Pharmaceutical Sciences" },
       { property: "og:description", content: "Discovery and innovation that shape tomorrow." },
       { property: "og:url", content: "/research" },
       { property: "og:image", content: research },
@@ -67,7 +67,7 @@ function ResearchPage() {
       <PageHero
         eyebrow="Research & Innovation"
         title="Discovery that changes the world"
-        subtitle="From laboratories to launchpads, St. Peter's researchers turn bold ideas into breakthroughs that define the future."
+        subtitle="From laboratories to launchpads, Masters Degree & PG College researchers turn bold ideas into breakthroughs that define the future."
         image={research}
         crumbs={[{ label: "Research" }]}
       />
@@ -144,7 +144,7 @@ function ResearchPage() {
           <Reveal delay={0.1}>
             <img
               src={research}
-              alt="Advanced research laboratory at St. Peter's Institute of Pharmaceutical Sciences"
+              alt="Advanced research laboratory at Masters Degree & PG College Institute of Pharmaceutical Sciences"
               loading="lazy"
               width={1280}
               height={960}
