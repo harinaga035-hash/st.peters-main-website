@@ -1,7 +1,7 @@
 ﻿import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Mail, Phone, MapPin, Send, Clock, CheckCircle2 } from "lucide-react";
-import heroCampus from "@/assets/hero-campus.jpg";
+import heroCampus from "@/assets/hero-campus.png";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
 import { SITE } from "@/lib/site";
