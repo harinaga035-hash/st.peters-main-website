@@ -52,7 +52,7 @@ const values = [
 const leadership = [
   {
     image: chairmanPortrait,
-    name: "Dr. Rajeev Menon",
+    name: "Chairman Name",
     designation: "Chairman",
     quote: "Education transforms most deeply when knowledge, character, and service move forward together.",
     message:
@@ -60,7 +60,7 @@ const leadership = [
   },
   {
     image: secretaryPortrait,
-    name: "Ms. Kavitha Reddy",
+    name: "Secretary Name",
     designation: "Secretary",
     quote: "Strong institutions are built through clarity, care, and a constant respect for student potential.",
     message:
@@ -68,7 +68,7 @@ const leadership = [
   },
   {
     image: principalPortrait,
-    name: "Dr. Arvind Narayan",
+    name: "Principal Name",
     designation: "Principal",
     quote: "Excellence is a daily discipline shaped by teaching, research, mentorship, and purpose.",
     message:
